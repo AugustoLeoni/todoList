@@ -1,0 +1,29 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem;
+  gap: .8rem;
+
+  width: 9.0rem;
+  height: 5.2rem;
+
+  background: var(--blue_dark);
+  border-radius: .8rem;
+
+  border: 0;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--blue);
+}
+
+.text {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 140%;
+
+  color: var(--gray_100);
+}

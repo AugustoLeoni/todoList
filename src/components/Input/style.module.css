@@ -1,0 +1,15 @@
+.input {
+  background-color: var(--gray_500);
+
+  border: .1rem solid var(--gray_700);
+  border-radius: .8rem;
+
+  padding: 1.6rem;
+
+  height: 5.4rem;
+  width: 100%;
+}
+
+.input:focus {
+  border: .1rem solid var(--purple_dark);
+}
